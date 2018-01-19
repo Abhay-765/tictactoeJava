@@ -6,9 +6,9 @@
  * draw to screen the X or Y String for tic tac toe
  */
 
-import java.awt. * ;
-import java.applet. * ;
-import java.util. * ;
+import java.awt.* ;
+import java.applet.* ;
+import java.util.* ;
 
 import java.net.*;
 import java.awt.event.KeyEvent;
