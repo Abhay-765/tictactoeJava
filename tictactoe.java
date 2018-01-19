@@ -1,10 +1,4 @@
-/*
- * 
- * Assign board array empty strings
- * check to see which row and which column you clicked in when you click the screen
- * set board array position to X or Y accordingly
- * draw to screen the X or Y String for tic tac toe
- */
+
 
 import java.awt.* ;
 import java.applet.* ;
@@ -242,9 +236,7 @@ public void getCoordinates(int x, int y){
         
     }
        
-     //CODE HERE
-     //set col and row to appropriate numbers accoding to the x and y coords
-     
+    
      public int checkforwin(){
          for(int i=0; i<3; i++){
                 if(board[i][0] == board[i][1] && board[i][0] == board[i][2]){
@@ -309,28 +301,6 @@ public void getCoordinates(int x, int y){
    }
    
    
-   
-   
-   
-  
-    
-    
-   
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
     
      public boolean keyDown(Event e, int key)//added
 {
@@ -344,7 +314,6 @@ public void getCoordinates(int x, int y){
 }
     
    
-    
     
     public void start() {
        if (runner == null) {
